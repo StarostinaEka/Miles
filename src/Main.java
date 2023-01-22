@@ -3,11 +3,12 @@ public class Main {
         int mile = 20;
         int ticketPrice = 500;
 
-        int x
+        int miles;
 
-        if (ticketPrice / mile) {
-        System.out.println("Total Miles");
-        System.out.println(x);
-
+        if (ticketPrice < 0) {
+            System.out.println("Impossible");
+        } else
+            miles = ticketPrice / mile;
+        System.out.println("Количество миль:" +  miles);
     }
 }
