@@ -7,8 +7,9 @@ public class Main {
 
         if (ticketPrice < 0) {
             System.out.println("Impossible");
-        } else
+        } else {
             miles = ticketPrice / mile;
-        System.out.println("Количество миль:" +  miles);
+            System.out.println("Количество миль:" + miles);
+        }
     }
 }
